@@ -1,0 +1,10 @@
+# Site settings
+title: ByzanTine's Blog
+email: morbyzantine@gmail.com
+description: "This site will mostly contain technical notes about deep learning"
+baseurl: ""
+url: "http://yourdomain.com"
+baseurl: /jekyll_blog
+# Build settings
+markdown: kramdown
+permalink: pretty
