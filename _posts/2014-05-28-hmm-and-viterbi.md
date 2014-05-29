@@ -22,6 +22,8 @@ $$P(z_t|z_{t-1} ...z_1) = P(z_t|z_{t-1})$$
 #### Stationary process assumption: transition is not depend on time
 \\[P(z_t|z_{t-1}) = P(z_2|z_1)\quad t\in 2...T\\]
 
+\\[P(z_t|z_{t-1} z_{t-2}) = P(z_2|z_1)\quad t\in 2...T\\]
+
 # Transition Matrix
 The model need to maximize the log-likehood of the state sequence for transition matrix.\\( \vec{z}\\) is the state sequence and $A$ is transition matrix.
 \\[\log P(\vec{z};A)\\]
