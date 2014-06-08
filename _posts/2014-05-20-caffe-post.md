@@ -39,12 +39,39 @@ When block_type is distinct, it pool a m\*n distinct block and unwrap it to a co
 
 Parse the image data like *"path_to_img/1.jpg 4"* which is aligned by filename and label. Translate Image to Datum and then write into leveldb. After that, since we need to normalize the data, so just extract all the data and compute mean is needed.
 
-# PROTOTEXT
+# PROTOTXT
 
 To train a model, we first need to define the model. The model is defined in *.prototxt files which is instance of previously defined in *.proto files. Refer to [mnish demo](http://caffe.berkeleyvision.org/mnist_prototxt.html) which is illustrated by the caffe team. 
 
-### Things to Noticed
+### Solver
 
-*What is Kernel_size* 
+Solver.prototxt is the top-level file which connect the training NN(neural network) and validation NN. They should be defined in train_net and test_net. We can refer to the solver source code to the procedure. [solver.cpp](https://github.com/BVLC/caffe/blob/master/src/caffe/solver.cpp) is the top-level file that we need for training.
+{%highlight c++ %}
+void Solver<Dtype>::Init(const SolverParameter& param);
+net_.reset();
+test_net_.reset(); 
+{%endhighlight%}
+First, the solver will init the two network defined in the val.prototxt and train.prototxt. 
+{%highlight c++ %}
+void Solver<Dtype>::Solve(const char* resume_file);
+Dtype loss = net_->ForwardBackward(bottom_vec);
+{%endhighlight%}
+Here a forward pass is used to obtain the train loss.
+
+{%highlight c++ %}
+void Solver<Dtype>::Test();
+{%endhighlight%}
+Here a forward pass to obtain the test loss and test accuracy.
+
+[Solver.hpp](https://github.com/BVLC/caffe/blob/master/include/caffe/solver.hpp) is also a good reference.
+
+### Train Net
+
+First Portal, the well-known [Imagenet Paper](http://www.cs.toronto.edu/~fritz/absps/imagenet.pdf). Basically, the imagenet deep network used CNN, relu, pooling layer to develope a Deep Neural network to challenge on Image net. 
+
+##### LRN and overlap pooling
+
+LRN(Local Response Normalization), which intuitively "smooth" the Feature with the adjacent units. Overlap pooling is used in the same sense.
+ 
 
 
