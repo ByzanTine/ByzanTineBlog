@@ -34,6 +34,6 @@ Both [wiki](http://en.wikipedia.org/wiki/Viterbi_algorithm) and R&N have a good 
 
 ![alt tag]({{site.url}}/images/An_example_of_HMM.png)
 
-By the probability of state transition(P(Healthy->Fever)) and emission matrix of state to observation(P(Normal|Healthy)), we are able to approximate the state sequence or predict the next state or maybe next observation based on the specific tasks.
+By the probability of state transition(P(Healthy->Fever)) and emission matrix of state to observation(P(Normal\\|Healthy)), we are able to approximate the state sequence or predict the next state or maybe next observation based on the specific tasks.
 
 
