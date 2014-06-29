@@ -1,7 +1,8 @@
 title:            ByzanTine's Blog
 description:      Notes on Deep Learning
 # Your site's domain goes here. Leave localhost server or blank when working locally.
-url:           http://localhost:4001/
+url:           http://byzantine.github.io/ByzanTineBlog/
+
 disqus_shortname:
 
 # Owner/author information
