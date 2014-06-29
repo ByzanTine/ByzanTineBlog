@@ -12,9 +12,8 @@ image:
 comments: 
 share: 
 ---
-[stanford Handout](http://cs229.stanford.edu/section/cs229-hmm.pdf)
-
-Artificial Intelligence: A Modern Approach(R&N) chap 15
+- [stanford Handout](http://cs229.stanford.edu/section/cs229-hmm.pdf)
+- Artificial Intelligence: A Modern Approach(R&N) chap 15
 
 # MARKOV ASSUMPTION
 
