@@ -1,2 +1,9 @@
-_config.yml
-_site/
+_site
+.sass-cache
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+codekit-config.json
+node_modules
+_asset_bundler_cache
+.jekyll-metadata
