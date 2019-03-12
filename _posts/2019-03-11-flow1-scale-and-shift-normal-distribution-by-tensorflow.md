@@ -27,7 +27,9 @@ where $J$ is the Jacobian of $f$ at $x$.
 ## Task
 To keep it simple, we do univariate normal distribution shift and scale. Say we want to transform from the green curve to blue curve in the [Figure](https://en.wikipedia.org/wiki/File:Normal_Distribution_PDF.svg) below.
 
+
 ![png](normal-dist.png)
+
 
 ## Math
 To do shift and scale by Flow, we can simply parameterize the flow by $\mu$ and $\sigma$ as an affine transformation
