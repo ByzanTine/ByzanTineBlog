@@ -2,6 +2,7 @@
 layout: post
 title: "Flow1: Scale and Shift Normal Distribution by Tensorflow"
 modified:
+comments: true
 categories: [Generative-Model]
 excerpt:
 tags: []
