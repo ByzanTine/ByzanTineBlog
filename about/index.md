@@ -1,21 +1,45 @@
 ---
 layout: page
-title: post themes
-tags: [about, theme]
-modified: 2025-12-15T20:53:07.573882-04:00
+title: About
+tags: [about, bio, research, cv]
+modified: 2026-03-24
 comments: true
+image:
+  feature: mm-theme-post-750.jpg
 ---
 
-Posts on theory and practical matters over Probability/Math/Machine Learning/Systems.
+### Professional Bio
 
-## Principles
+I am a researcher and engineer currently in Google DeepMind, specializing in NLP. My work focuses on the intersection of reinforcement learning algorithms and infrastructure. Now I am also interested in robotics.
 
-* Focus on the main insight.
-* Scannable for retrieve key ideas.
-* Practical code included.
+I am a contributor to the **Gemini** series of models at Google DeepMind.
 
+---
 
-## 2025 Theme
+### 🎓 Selected Publications
 
-Robotics Theory and Pratice
+For a full list of my work, please visit my [Google Scholar Profile](https://scholar.google.com/citations?user=lmgTen0AAAAJ&hl=en).
+
+*   **Q-BERT: Hessian Based Ultra Low Precision Quantization of BERT**  
+    *NeurIPS*, 2019
+    
+*   **Boosting Agentic Reasoning in LLM Judges via Tool-Integrated Reinforcement Learning**  
+    *arXiv*, 2024
+    
+*   **AutoHoot: Automatic High-Order Optimization for Tensors**  
+    *MLSys*, 2020
+
+*   **Inefficiency of K-FAC for Large Batch Size Training**  
+    *arXiv*, 2019
+
+*   **Gemini 2.5: Pushing the frontier with advanced reasoning, multimodality, long context, and next generation agentic capabilities**  
+    *Google DeepMind*, 2024
+    
+*   **Gemini 1.5: Unlocking multimodal understanding across millions of tokens of context**  
+    *Google DeepMind*, 2024
+    
+*   **Gemini: A Family of Highly Capable Multimodal Models**  
+    *Google DeepMind*, 2023
+    
+---
 
