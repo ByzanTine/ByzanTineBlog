@@ -10,9 +10,7 @@ image:
 
 ### Professional Bio
 
-I am a researcher and engineer currently in Google DeepMind, specializing in NLP. My work focuses on the intersection of reinforcement learning algorithms and infrastructure. Now I am also interested in robotics.
-
-I am a contributor to the **Gemini** series of models at Google DeepMind.
+I am a researcher and engineer currently in Google DeepMind, specializing in NLP and a contributor to the **Gemini** series of models. My work focuses on the intersection of reinforcement learning algorithms and infrastructure. Now I am also interested in robotics.
 
 ---
 
